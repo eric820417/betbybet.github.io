@@ -6459,7 +6459,7 @@ r.toString
 return""+(s+r)}},
 bg(a){var s,r=A.k(a)
 if(r==null)r=0
-s=a.length
+s=Math.abs(r)
 if(s>6)return A.d(r/1e6)+" M"
 else if(s>3)return A.d(r/1000)+" K"
 else return a},
