@@ -39854,11 +39854,11 @@ i=B.c.H(a3)
 a3=A.E(i,b6)
 if(a3==null)a3=A.C(i)
 a3.toString
-a6=a5+a0+a1+l+k+a2+a3
 i=B.c.H(a4)
 a4=A.E(i,b6)
-l=a4==null?A.C(i):a4
-l.toString
+if(a4==null)a4=A.C(i)
+a4.toString
+a6=a5+a0+a1+l+k+a2+a3+a4
 j.Q=A.d(a6)
 if(a6!==0){j.as=A.d(Math.abs(h)+Math.abs(g)+Math.abs(f)+Math.abs(e)+Math.abs(d)+Math.abs(c)+Math.abs(b)+Math.abs(a))
 n.z.push(j)}}else if(b7.y){A.cX().$1("\u7d50\u679c\u70baBanker")
